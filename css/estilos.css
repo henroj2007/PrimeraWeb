@@ -29,3 +29,21 @@ h1,h2{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.character{
+    width: 25;
+    margin: 3%;
+    border: 5px red solid;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.character img{
+    width: 80%;
+    border-radius: 5%;
+}
+
+.info-character{
+    text-align: justify;
+    padding: 3%;
+}
