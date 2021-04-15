@@ -5,12 +5,12 @@ function validardatos(){
      //console.log("Hola Mundo");
      //document.write("Hola Mundo");
  
-     let nombre = document.getElementById(`name`).Value
+     let nombre = document.getElementById("nombre").Value
  
-     if(nombre == 'Luis Henry Rojas Munevar'){
-         alert(`Welcome`)
+     if(nombre == "Luis Henry Rojas Munevar"){
+         alert("Acceso concedido")
      }else{
-         alert(`No tienes Acceso`);
+         alert("Acceso Denegado")
      }
  
  }
